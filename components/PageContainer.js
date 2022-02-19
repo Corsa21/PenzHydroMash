@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import AsideBar from './AsideBar';
 import {col} from '../style/helpers';
-import Logo from '../components/Logo'
+import Header from './Header';
+import Preview from './Preview';
 
 const Container = styled.div`
 display: flex;
@@ -17,7 +18,8 @@ export default function PageContainer () {
     return (
         <Container>
             <MainContainer>
-            <Logo/>
+            <Header/>
+            <Preview/>
             </MainContainer>
             <AsideBar></AsideBar>
         </Container>

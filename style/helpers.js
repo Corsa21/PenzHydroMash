@@ -1,5 +1,5 @@
 export function col (column) {
-    return `${(100/24)*column}vw`;
+    return `${(100/24) * column}vw`;
 }
 
 export function vh (px) {
@@ -7,6 +7,6 @@ export function vh (px) {
 }
 
 export function vw (px) {
-    return `${(px/1920)*100}vw`;
+    return `${(px/1920) * 100}vw`;
 }
 
