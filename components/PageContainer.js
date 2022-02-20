@@ -14,12 +14,11 @@ const MainContainer = styled.main`
 width: ${col(23)};
 `
 
-export default function PageContainer () {
+export default function PageContainer ({children}) {
     return (
         <Container>
             <MainContainer>
-            <Header/>
-            <Preview/>
+              {children}
             </MainContainer>
             <AsideBar></AsideBar>
         </Container>

@@ -7,7 +7,6 @@ const StyledItemsInfo = styled.div(
     ({theme}) => css`
     display: flex;
     align-items: center;
-    background: ${theme.colors.primary};
     width: ${col(12)};
 
     .items {

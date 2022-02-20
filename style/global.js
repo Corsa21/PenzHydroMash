@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle(
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background: ${colors.white};
+      background: ${colors.whiteBody};
       color: ${colors.black1};
       font-weight: 300;
       font-size: 18px;

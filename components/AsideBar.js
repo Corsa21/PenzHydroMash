@@ -1,5 +1,6 @@
 import styled, {css} from 'styled-components';
 import {col} from '../style/helpers';
+import BurgerButton from "./BurgerButton";
 
 const AsideContainer = styled.section(
     ({theme}) => css`
@@ -7,11 +8,14 @@ const AsideContainer = styled.section(
     z-index: 3;
     background: ${theme.colors.grey1};
     width: ${col(1)};
-`
-)
+`)
+
+
 
 export default function AsideBar () {
     return (
-        <AsideContainer>123</AsideContainer>
+        <AsideContainer>
+            <BurgerButton/>
+        </AsideContainer>
     );
 }

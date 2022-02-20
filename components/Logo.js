@@ -27,7 +27,6 @@ const Wrapper = styled.div(
     ({ theme }) => css`
     position: relative;
     z-index: 3;
-    background: ${theme.colors.primary};
     width: ${col(11)};
     `
 )

@@ -6,7 +6,8 @@ const theme = {
         black2: '#101010',
         grey1: '#D6D6D6',
         grey2: '#F6F6F6',
-        white: '#E5E5E5'
+        white: '#E5E5E5',
+        whiteBody: '#ffffff'
     },
     defaultFont: 'Gilroy'
 };
