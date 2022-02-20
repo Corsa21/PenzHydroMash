@@ -29,17 +29,4 @@ const ButtonTitle = styled.div`
   writing-mode: vertical-rl;
 `
 
-
-const BurgerButton = () => {
-
-
-  return (
-    <BurgerContainer>
-      <Button/>
-      <ButtonTitle>Меню</ButtonTitle>
-    </BurgerContainer>
-  )
-}
-
-
-export default BurgerButton;
+export { BurgerContainer, Button, ButtonTitle }

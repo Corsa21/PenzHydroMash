@@ -9,6 +9,7 @@ const InfoImageContainer = styled.section`
 
 const InfoImagePicture = styled.img`
   width: ${col(11)};
+  object-fit: cover;
 `
 
 const InfoImageText = styled.div`
