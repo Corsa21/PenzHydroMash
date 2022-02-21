@@ -8,6 +8,7 @@ const StyledHeader = styled.div(
     position: fixed;
     left: 0; top: 0;
     z-index: 10;
+    width: 100%;
 
     &.scroll {
       background: ${theme.colors.primary};
@@ -15,6 +16,8 @@ const StyledHeader = styled.div(
 
   @media (max-width:720px) {
     width: ${col(24)};
+    justify-content: space-between;
+    align-items: center;
   }
 `
 )

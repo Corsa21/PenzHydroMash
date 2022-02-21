@@ -29,6 +29,7 @@ const InfoImageText = styled.div`
   @media (max-width:720px) {
     width: ${col(22)};
     padding-top: 30px;
+    font-size: 14px;
   }
   
   

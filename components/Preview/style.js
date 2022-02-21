@@ -26,18 +26,7 @@ const StyledPreview = styled.div(
     .previewInfo__company {
         margin-left: 10px;
     }
-
-    .previewImg {
-        z-index: 2;
-        overflow: hidden;
-        width: ${col(12)};
-    }
-
-    .previewImg img {
-        margin-left: -930px;
-        min-height: 984.8px;
-    }
-
+    
     @media (max-width:720px){
         flex-direction: column;
     }
@@ -74,7 +63,7 @@ const Title = styled.div(
     margin-bottom: 195px;
 
     @media (max-width:1024px){
-        font-size:64px
+        font-size:64px;
     }
 
     @media (max-width:720px){
@@ -129,6 +118,10 @@ const PreviewImg = styled.div(
             width: 100%;   
             min-height: 423px;
             margin-left:0;
+        }
+
+        @media (min-width:1920px) {
+            margin-left: 0;
         }
     }
 `

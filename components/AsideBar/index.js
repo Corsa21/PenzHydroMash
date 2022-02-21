@@ -7,7 +7,7 @@ import { AsideContainer } from "./style";
 export default function AsideBar () {
     return (
         <AsideContainer>
-            <BurgerButton/>
+            <BurgerButton>Меню</BurgerButton>
             <ScrollDown/>
             <ScrollUp/>
         </AsideContainer>

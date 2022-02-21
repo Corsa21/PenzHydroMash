@@ -54,6 +54,10 @@ const InfoSliderItem = styled.div(
     div {
       font-size: 18px;
       line-height: 1.8;
+      
+      @media (max-width: 720px) {
+        font-size: 14px;
+  }
     }
   `
 )

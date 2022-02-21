@@ -7,7 +7,7 @@ const BurgerContainer = styled.div(
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 45px 0;
+    padding: 30px 0;
     cursor: pointer;
   `
 )
@@ -20,6 +20,15 @@ const Button = styled.div(
     border: 2px solid ${theme.colors.black1};
     border-left: none; border-right: none;
     margin-bottom: 20px;
+
+    &.burgerMenu_displayNone {
+      display: none;
+    }
+
+    &.burgerMenu {
+      border: 2px solid #fff;
+      border-left: none; border-right: none;
+    }
   `
 )
 

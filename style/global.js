@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle(
       color: ${colors.black1};
       font-weight: 300;
       font-size: 18px;
+      overflow-x: hidden;
     }
 
     * {

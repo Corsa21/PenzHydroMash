@@ -1,12 +1,12 @@
 import { BurgerContainer, Button, ButtonTitle } from "./style";
 
-const BurgerButton = () => {
 
-
+const BurgerButton = ({children}) => {
+  
     return (
       <BurgerContainer>
-        <Button/>
-        <ButtonTitle>Меню</ButtonTitle>
+        <Button />
+        <ButtonTitle>{children}</ButtonTitle>
       </BurgerContainer>
     )
   }

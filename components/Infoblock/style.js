@@ -34,6 +34,7 @@ const InfoblockText = styled.div(
 
     @media (max-width:720px){
         width: ${col(22)};
+        font-size: 16px;
     }
   `
 )
