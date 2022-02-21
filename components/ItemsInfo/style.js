@@ -16,7 +16,31 @@ const StyledItemsInfo = styled.div(
         width: 100%;
         margin-left: ${col(1)};
         margin-right: ${col(1)};
+
+        @media (max-width: 1700px) {
+            gap: ${col(0.75)}
+        }
         
+        @media (max-width: 1450px) {
+            gap: ${col(0.5)}
+        }
+
+        @media (max-width: 1300px) {
+            gap: ${col(0.25)};
+            margin-left: ${col(0.5)};
+            margin-right: ${col(0.5)};
+        }
+
+        @media (max-width: 1024px) {
+            margin-left: ${col(0.25)};
+            margin-right: ${col(0.25)};
+        }
+
+        @media (max-width: 800px) {
+            margin-left: 0;
+            margin-right: 0;
+            gap: ${col(0.1)};
+        }
     }
 
     .item {

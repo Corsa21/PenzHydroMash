@@ -1,9 +1,9 @@
-import {InfoblockContainer, InfoblockTitle, InfoblockText} from "./style";
+import { InfoblockContainer, InfoblockTitle, InfoblockText } from "./style";
 
 
 const InfoBlock = (props) => {
 
-  const {title, children} = props
+  const { title, children } = props
 
 
   return (

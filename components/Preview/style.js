@@ -12,6 +12,10 @@ const StyledPreview = styled.div(
         z-index: 3;
         background: ${theme.colors.primary};
         width: ${col(11)};
+
+        @media (max-width: 720px) {
+            width: ${col(24)};
+        }
     }
 
     
@@ -53,6 +57,7 @@ const Navigation = styled.div(
     opacity: 0.5;
 
     @media (max-width:720px){
+        padding-top: 120px;
         font-size:12px;
     }
 `
@@ -68,8 +73,13 @@ const Title = styled.div(
     color: ${theme.colors.grey2};
     margin-bottom: 195px;
 
+    @media (max-width:1024px){
+        font-size:64px
+    }
+
     @media (max-width:720px){
         font-size:40px;
+        margin-bottom: 0;
     }
 `
 )
@@ -91,7 +101,10 @@ const Text = styled.div(
     }
 
     @media (max-width:720px){
-        font-size: 16px
+        font-size: 16px;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        border:none;
     }
 `
 )
@@ -102,9 +115,21 @@ const PreviewImg = styled.div(
     overflow: hidden;
     width: ${col(12)};
 
+    @media (max-width: 720px) {
+        width: ${col(24)};
+        overflow: visible;
+    }
+
     img {
         margin-left: -930px;
         min-height: 984.8px;
+        object-fit: cover;
+
+        @media (max-width: 720px) {
+            width: 100%;   
+            min-height: 423px;
+            margin-left:0;
+        }
     }
 `
 )

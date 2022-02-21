@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import {col} from '../../style/helpers';
+import { col } from '../../style/helpers';
 
 const StyledLogo = styled.div`
     display: flex;
@@ -9,6 +9,13 @@ const StyledLogo = styled.div`
     font-size: 14px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+
+    svg {
+        @media (max-width: 720px) {
+            min-width: 30px;
+            min-height: 30px;
+        }
+    }
 `
 
 const Logo__text = styled.div(
@@ -31,4 +38,4 @@ const Wrapper = styled.div(
     `
 )
 
-export {StyledLogo, Logo__text, Wrapper}
+export { StyledLogo, Logo__text, Wrapper }

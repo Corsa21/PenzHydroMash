@@ -1,4 +1,4 @@
-import { InfoImageContainer, InfoImagePicture, InfoImageText} from "./style";
+import { InfoImageContainer, InfoImagePicture, InfoImageText } from "./style";
 
 const InfoImage = (props) => {
 
@@ -6,7 +6,7 @@ const InfoImage = (props) => {
 
   return (
     <InfoImageContainer>
-      <InfoImagePicture src={src}/>
+      <InfoImagePicture src={src} />
       <InfoImageText>
         {children}
       </InfoImageText>

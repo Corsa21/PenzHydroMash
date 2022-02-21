@@ -8,7 +8,7 @@ export default function Header () {
     useEffect(()=>{
         if(window) {
             const scrollHandler = () => {
-                setScrollHeader(window.scrollY >= 800)
+                setScrollHeader(window.scrollY >= 70)
             }
             window.addEventListener('scroll', scrollHandler)
             return () => {window.removeEventListener('scroll', scrollHandler)}
