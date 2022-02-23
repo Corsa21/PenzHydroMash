@@ -33,6 +33,15 @@ export default function Home(props) {
 }
 
 export async function getStaticProps() {
-  const props = data
+  let props;
+  try {
+    //ссылка к файлу data.json на гитхабе
+    const response = await fetch('https://cdn.statically.io/gh/Corsa21/PenzHydroMash/main/data.json');
+    props = await response.json();
+  }
+  catch {
+    props = data
+  }
+  
   return {props} 
 }
