@@ -10,6 +10,10 @@ const StyledLogo = styled.div`
     letter-spacing: 0.1em;
     text-transform: uppercase;
 
+    .scroll & {
+        width: ${col(5)}
+    }
+
     svg {
         @media (max-width: 720px) {
             min-width: 30px;
@@ -35,6 +39,10 @@ const Wrapper = styled.div(
     position: relative;
     z-index: 3;
     width: ${col(11)};
+
+    .scroll & {
+        width: ${col(6)}
+    }
     `
 )
 

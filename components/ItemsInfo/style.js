@@ -8,6 +8,10 @@ const StyledItemsInfo = styled.div(
     align-items: center;
     width: ${col(12)};
 
+    .scroll & {
+        width: ${col(17)};
+        }
+
     .items {
         display: flex;
         gap: ${col(1)} ;
@@ -16,6 +20,11 @@ const StyledItemsInfo = styled.div(
         width: 100%;
         margin-left: ${col(1)};
         margin-right: ${col(1)};
+
+        .scroll & {
+        width: ${col(17)};
+        justify-content: space-around;
+        }
 
         @media (max-width: 1700px) {
             gap: ${col(0.75)}

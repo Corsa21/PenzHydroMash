@@ -16,7 +16,7 @@ export default function Header() {
         }
     }, [])
 
-    
+
 
     return (
         <StyledHeader className={scrollHeader ? 'scroll' : ''}>
