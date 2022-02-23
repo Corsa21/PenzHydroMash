@@ -12,7 +12,6 @@ import data from '../data.json';
 
 
 export default function Home(props) {
-  console.log({props})
   const {preview, aboutUs, infoImage, transport} = props;
   return (
     <PageContainer>
